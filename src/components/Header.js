@@ -1,4 +1,5 @@
 import React from 'react';
+import headshot from '../assets/images/headshot.png';
 // Here we are importing a CSS file as a dependency
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -7,7 +8,7 @@ function Header() {
     <div>
       <header className="container header">
         <figure className="headshot">
-          <img src="./assets/images/headshot.png" alt="Mandell Posed in Suit Jacket" />
+          <img src={headshot} alt="Mandell Posed in Suit Jacket" />
         </figure>
         <section className="namecard">
           <h1>Mandell Butler</h1>
