@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 // Here we are importing a CSS file as a dependency
 import 'bootstrap/dist/css/bootstrap.min.css';
 

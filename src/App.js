@@ -1,7 +1,6 @@
 import './App.css';
 import React from 'react';
 import Header from './components/Header';
-import Card from './components/Card';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import About from './components/About';
@@ -12,11 +11,6 @@ function App() {
   return (
     <div>
       <Header />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
       <Project />
       <Contact />
       <About />
