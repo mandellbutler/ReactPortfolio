@@ -2,12 +2,13 @@ import React from 'react';
 import projects from '../projects';
 // Here we are importing a CSS file as a dependency
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from '@material-ui/core';
+import '../styles/Project.css'
+// import { Button } from '@material-ui/core';
 
 
 function Project() {
   return (
-    <div>
+    <div id="work" class="container portfolio">
       {projects.map((project) => {
 
         return (
@@ -18,7 +19,7 @@ function Project() {
                 <img src={project.image.src} alt={project.image.alt}></img>
               </a>
             </figure>
-            <Button color="primary" variant="contained">Text</Button>
+            {/* <Button color="primary" variant="contained">Text</Button> */}
           </section>
         )
       }

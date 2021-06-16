@@ -1,10 +1,11 @@
 import React from 'react';
 // Here we are importing a CSS file as a dependency
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/Contact.css'
 
 function Contact() {
   return (
-    <div>
+    <div class="container .p-3 col-sm-6 col-md-4">
       <h3>CONTACT</h3>
       <form id="contact" class="contact-form">
         <div>

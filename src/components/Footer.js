@@ -1,8 +1,11 @@
 import React from 'react';
 // Here we are importing a CSS file as a dependency
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import Box from '@material-ui/core/Box';
+import '../styles/Footer.css'
 
-function Footer() {
+
+
+function Display() {
   return (
     <div>
       <footer>
@@ -14,4 +17,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Display;

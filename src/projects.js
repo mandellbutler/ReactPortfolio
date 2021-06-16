@@ -9,7 +9,7 @@ import bridal from './assets/images/bridal.jpeg';
 const projects = [
   {
     title: 'horiseon',
-    href: 'https://franklincodes1.github.io/GroupProject1/',
+    href: 'https://mandellbutler.github.io/Horiseon-seo/',
     image: {
       src: horiseon,
       alt: 'A man leading a team strategy meeting.'
@@ -41,7 +41,7 @@ const projects = [
   },
   {
     title: 'Movie Logger',
-    href: 'https://github.com/mandellbutler/projectTwo',
+    href: 'https://movie-logger2021.herokuapp.com/',
     image: {
       src: movie,
       alt: 'Image of a movie logger application, displaying old movie posters.'
