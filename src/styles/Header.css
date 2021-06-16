@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  background: color #00132a;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.headshot {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+img {
+  width: auto;
+  height: 100%;
+  max-height: 30vh;
+}
+
+.namecard {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: calc(14px + 2vw);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 20%;
+}
+
+a:link {
+  text-decoration: none;
+  color: grey;
+}
+
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ffffff
+}
+
+/********************BEGIN-MEDIA-QUERY***************/
+
+@media screen and (min-width: 768px) {
+  .navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      font-size: 80%;
+  }
+  .portfolio {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+
+  * {
+      box-sizing: border-box;
+      border: 0px solid rgb(209, 207, 207);
+      background-color:#00132a;
+      font-family: 'Courier New', Courier, monospace;
+      color: #fff
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .header {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+  
+  .navbar {
+      align-self: flex-end;
+      flex-direction: column;
+      order: -2;
+      color: yellow;
+  }
+
+  .header div {
+      color:turquoise
+  }
+}
