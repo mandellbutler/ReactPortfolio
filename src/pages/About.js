@@ -6,9 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function About() {
   return (
     <div>
-      <section class="container .p-3 col-sm-6 col-md-6">
+      <section className="container .p-3 col-sm-6 col-md-6">
         <h3>ABOUT ME</h3>
-        <aside class="bio">
+        <aside className="bio">
           <p>
             My name is Mandell Butler and I am Full Stack Web Developer. And this is my bio!
           </p>

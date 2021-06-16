@@ -5,6 +5,7 @@ import { useHistory } from 'react-router-dom'
 import headshot from '../assets/images/headshot.png';
 // Here we are importing a CSS file as a dependency
 import Link from '@material-ui/core/Link';
+// import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import '../styles/Header.css'
 
 
@@ -15,12 +16,12 @@ function Header() {
   const history = useHistory();
   return (
     <div>
-      <header class="container header">
+      <header className="container header">
         <figure className="headshot">
           <img src={headshot} alt="Mandell Posed in Suit Jacket" />
         </figure>
       </header >
-      <section class="namecard">
+      <section className="namecard">
         <h1>Mandell Butler</h1>
         <div>
           Full Stack Web Developer

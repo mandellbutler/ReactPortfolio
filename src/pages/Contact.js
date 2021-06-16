@@ -5,7 +5,7 @@ import '../styles/Contact.css'
 
 function Contact() {
   return (
-    <div class="container .p-3 col-sm-6 col-md-4">
+    <div className="container .p-3 col-sm-6 col-md-4">
       <h3>CONTACT</h3>
       <form id="contact" class="contact-form">
         <div>
@@ -18,11 +18,11 @@ function Contact() {
         </div>
         <div>
           <label for="comment">Comment:</label>
-          <textarea class="form-row" id="comment"
+          <textarea className="form-row" id="comment"
             placeholder="Let's Connect! Please leave a message!"></textarea>
         </div>
         <div class="d-grid gap-2 col-4 mx-auto">
-          <button class="btn btn-secondary btn-sm" type="submit">Submit</button>
+          <button className="btn btn-secondary btn-sm" type="submit">Submit</button>
         </div>
       </form>
     </div>
