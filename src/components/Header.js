@@ -6,6 +6,9 @@ import headshot from '../assets/images/headshot.png';
 // Here we are importing a CSS file as a dependency
 import Link from '@material-ui/core/Link';
 // import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { SiGithub } from 'react-icons/si';
+import { AiOutlineLinkedin } from 'react-icons/ai';
 import '../styles/Header.css'
 
 
@@ -20,26 +23,24 @@ function Header() {
         <figure className="headshot">
           <img src={headshot} alt="Mandell Posed in Suit Jacket" />
         </figure>
-      </header >
-      <section className="namecard">
-        <h1>Mandell Butler</h1>
-        <div>
-          Full Stack Web Developer
-        </div>
-      </section>
-      <nav className="navbar">
-        <p><Link onClick={(event) => {
-          history.push('/myWork')
-        }} color='primary'>myWork</Link></p>
-        <p><Link onClick={(event) => {
-          history.push('/aboutMe')
-        }} color='primary'>aboutMe</Link></p>
-        <p><Link onClick={(event) => {
-          history.push('/contact')
-        }} color='primary'>Contact</Link></p>
-        <p><a href="https://github.com/mandellbutler">Github</a></p>
-        <p><a href="https://www.linkedin.com/in/mandellbutler/">Linkedin</a></p>
-      </nav>
+        <section className="namecard">
+          <h1>Mandell Butler</h1>
+          <div>
+            Full Stack Web Developer
+          </div>
+        </section>
+        <nav className="navbar">
+          <p><Link onClick={(event) => {
+            history.push('/myWork')
+          }} color='primary'>myWork</Link></p>
+          <p><Link onClick={(event) => {
+            history.push('/aboutMe')
+          }} color='primary'>aboutMe</Link></p>
+          <p><Link onClick={(event) => {
+            history.push('/contact')
+          }} color='primary'>Contact</Link></p>
+        </nav>
+      </header>
     </div>
   );
 }

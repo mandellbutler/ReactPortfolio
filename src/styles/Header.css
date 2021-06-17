@@ -41,7 +41,7 @@ img {
   flex-wrap: wrap;
   align-items: center;
   flex-wrap: wrap;
-  font-size: 20%;
+  font-size: calc(13px + 2vw);
 }
 
 a:link {
@@ -67,13 +67,7 @@ a:hover {
       flex-direction: row;
       justify-content: space-around;
       flex-wrap: wrap;
-      font-size: 80%;
-  }
-  .portfolio {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      flex-wrap: wrap;
+      font-size: 100%;
   }
 
   * {
@@ -98,7 +92,9 @@ a:hover {
       flex-direction: column;
       order: -2;
       color: yellow;
+      font-size: 100%
   }
+
 
   .header div {
       color:turquoise

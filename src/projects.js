@@ -57,7 +57,7 @@ const projects = [
   },
   {
     title: "Kayla's Bridal",
-    href: 'https://github.com/mandellbutler',
+    href: '#',
     image: {
       src: bridal,
       alt: 'Image of a gorgeous wedding dress draped in the sun.'
