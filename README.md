@@ -35,7 +35,7 @@ Simply visit the deployed page and view my work!
 
 ### Responsive Design:
 
-![Responsive Layout](./public/assets/gifs/demo.gif
+![Responsive Layout](./public/assets/gifs/demo.gif)
 
 
 
