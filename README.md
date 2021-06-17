@@ -35,7 +35,11 @@ Simply visit the deployed page and view my work!
 
 ### Responsive Design:
 
+<<<<<<< HEAD
 ![Responsive Layout](./public/assets/gifs/demo.gif
+=======
+![Responsive Layout](./public/assets/gifs/demo.gif)
+>>>>>>> db0bde25458c55cb9e401f73b6ac075d84403e40
 
 
 
