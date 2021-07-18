@@ -7,8 +7,6 @@ import headshot from '../assets/images/headshot.png';
 import Link from '@material-ui/core/Link';
 // import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { SiGithub } from 'react-icons/si';
-import { AiOutlineLinkedin } from 'react-icons/ai';
 import '../styles/Header.css'
 
 

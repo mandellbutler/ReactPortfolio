@@ -5,6 +5,7 @@ import Project from './pages/Project';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Footer from './components/Footer';
+// import Homepage from './pages/Homepage';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 // In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
@@ -13,6 +14,7 @@ function App() {
     <Router>
       <div>
         <Header />
+        {/* <Homepage /> */}
         <Route exact path='/myWork'>
           <Project />
         </Route>
