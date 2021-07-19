@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
-  background-color: #00132a;
+  background-color:#4C6893;
   font-family: 'Courier New', Courier, monospace;
-  color: #fff
+  color: #ffffff
 }
 
 .header {
@@ -46,12 +46,14 @@ img {
 
 a:link {
   text-decoration: none;
-  color: grey;
+  color: #0050cc;
+  font-weight: bold;
 }
 
 a:visited {
   text-decoration: none;
-  color: grey;
+  color: #0050cc;
+  font-weight: bold;
 }
 
 a:hover {
@@ -68,14 +70,6 @@ a:hover {
       justify-content: space-around;
       flex-wrap: wrap;
       font-size: 100%;
-  }
-
-  * {
-      box-sizing: border-box;
-      border: 0px solid rgb(209, 207, 207);
-      background-color:#00132a;
-      font-family: 'Courier New', Courier, monospace;
-      color: #fff
   }
 }
 

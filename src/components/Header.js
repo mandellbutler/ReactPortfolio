@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Header.css'
 
 
+
 // import { palette } from '@material-ui/system';
 
 
@@ -37,6 +38,7 @@ function Header() {
           <p><Link onClick={(event) => {
             history.push('/contact')
           }} color='primary'>Contact</Link></p>
+          <a href="https://docs.google.com/document/d/13qikw68VjrDF5uUYBSEDjC86f0lfPko3o7i_EZmVE6o/edit?usp=sharing" target="_blank" rel="noreferrer" className="card-link">resume</a>
         </nav>
       </header>
     </div>

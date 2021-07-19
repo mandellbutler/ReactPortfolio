@@ -65,7 +65,7 @@ const projects = [
       src: employees,
       alt: 'Image of Employee management system prompt'
     },
-    description: 'Facilitates the employee-management process, allowing for increased workflow and business functionality.'
+    description: 'Facilitate the employee-management process, allowing for increased workflow and business functionality.'
   },
 ]
 

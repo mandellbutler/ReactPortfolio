@@ -1,5 +1,5 @@
 body {
-  background-color:#00132a
+  background-color: #4CB2DB;
 }
 
 
@@ -36,18 +36,31 @@ body {
   width: 100%
 }
 
+.description {
+  background-color: #00658E;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+
 .card-body {
   background-color:#00132A;
 }
 
 .card-header {
-  background-image: linear-gradient(to bottom right,#00132A, lightslategrey)
+  /* background-image: linear-gradient(to bottom right,#4CB2DB, #18008E); */
+  background-color: #4C4C93;
+  color: #4CB2DB;
 }
 
 .card {
-  border: 3px solid #6c757d;
+  border: 5px solid #ffffff;
   max-width: 18rem;
+  box-shadow: 13px -7px 13px black;
+  display: flex;
+  justify-content: center;
 }
+
 
 @media screen and (min-width: 768px) {
   .portfolio {
@@ -55,13 +68,5 @@ body {
       flex-direction: row;
       justify-content: center;
       flex-wrap: wrap;
-  }
-
-  * {
-      box-sizing: border-box;
-      border: 0px solid rgb(209, 207, 207);
-      background-color:#00132a;
-      font-family: 'Courier New', Courier, monospace;
-      color: #fff
   }
 }
