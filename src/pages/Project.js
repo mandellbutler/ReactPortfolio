@@ -30,7 +30,7 @@ function Project() {
               <div className="container description">
                 <p className="card-text description">{project.description}</p>
               </div>
-              <div className="container description buttons">
+              <div className="container description btn-container">
                 <a href={project.github} target="_blank" rel="noreferrer" className="card-link">Github</a>
                 <a href={project.live} target="_blank" rel="noreferrer" className="card-link">Live</a>
               </div>

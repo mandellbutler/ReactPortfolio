@@ -61,6 +61,24 @@ body {
   justify-content: center;
 }
 
+.btn-container {
+  padding-bottom: 12px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #4CB2DB;
+  font-weight: bold;
+  background-color: #884C93;
+  padding: 6px 6px;
+  border: 1px solid black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ffffff
+}
+
 
 @media screen and (min-width: 768px) {
   .portfolio {
