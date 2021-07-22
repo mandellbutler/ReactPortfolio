@@ -3,7 +3,7 @@
   border: 0px solid rgb(209, 207, 207);
   background-color:#4C6893;
   font-family: 'Courier New', Courier, monospace;
-  color: #fff
+  color: black;
 }
 
 body {
@@ -26,4 +26,22 @@ code {
   flex-wrap: wrap;
   flex-direction: column;
   margin: 0 auto;
+}
+
+.control-panel {
+  font-size: 18px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  width: fit-content;
+
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.disabled {
+  cursor: not-allowed;
+  color: lightblue;
 }

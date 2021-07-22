@@ -16,7 +16,7 @@ const sectionStyle = {
 function Homepage() {
   return (
     <div style={sectionStyle}>
-      <h3>What it do Bitches!</h3>
+      <h3>Welcome to my Portfolio</h3>
     </div>
   );
 }

@@ -39,7 +39,7 @@ function Header() {
             history.push('/contact')
           }} color='primary'>Contact</Link></p>
           <p><Link onClick={(event) => {
-            history.push('"https://docs.google.com/document/d/13qikw68VjrDF5uUYBSEDjC86f0lfPko3o7i_EZmVE6o/edit?usp=sharing" target="_blank" rel="noreferrer" className="card-link"')
+            history.push('/resume')
           }} color='primary'>RESUME</Link></p>
           <a href="https://docs.google.com/document/d/13qikw68VjrDF5uUYBSEDjC86f0lfPko3o7i_EZmVE6o/edit?usp=sharing" target="_blank" rel="noreferrer" className="card-link">resume</a>
         </nav>

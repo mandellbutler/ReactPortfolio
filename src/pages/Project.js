@@ -12,15 +12,6 @@ function Project() {
       {projects.map((project) => {
 
         return (
-          // <section className="card text-white m-1" key={project.href}>
-          //   <div className="card-header">{project.title}</div>
-          //   <figure className="card-body project-image">
-          //     <a href={project.href} target="_blank" rel="noreferrer">
-          //       <img src={project.image.src} alt={project.image.alt}></img>
-          //     </a>
-          //   </figure>
-          //   {/* <Button color="primary" variant="contained">Text</Button> */}
-          // </section>
           <div>
             <div className="card text-white m-3" key={project.href}>
               <h5 className="card-title card-header">{project.title}</h5>

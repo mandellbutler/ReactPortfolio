@@ -3,6 +3,7 @@ import React from 'react';
 import Header from './components/Header';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import About from './pages/About';
 import Footer from './components/Footer';
 // import Homepage from './pages/Homepage';
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route exact path='/aboutMe'>
           <About />
+        </Route>
+        <Route exact path='/resume'>
+          <Resume />
         </Route>
         <Footer />
       </div>

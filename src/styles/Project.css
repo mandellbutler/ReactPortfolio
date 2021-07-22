@@ -2,7 +2,6 @@ body {
   background-color: #4CB2DB;
 }
 
-
 .portfolio {
   display: flex;
   flex-direction: column;
@@ -33,7 +32,7 @@ body {
 
 
 .project-image img {
-  width: 100%
+  width: 100%;
 }
 
 .description {
@@ -51,6 +50,7 @@ body {
   /* background-image: linear-gradient(to bottom right,#4CB2DB, #18008E); */
   background-color: #4C4C93;
   color: #4CB2DB;
+  font-weight: bold;
 }
 
 .card {
