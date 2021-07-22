@@ -7,7 +7,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 
 export const PDFReader = () => {
-  const [scale, setScale] = useState(1.5);
+  const [scale, setScale] = useState(1.3);
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
   const [isLoading, setIsLoading] = useState(true);

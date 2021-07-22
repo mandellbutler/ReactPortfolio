@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
-  background-color:#4C6893;
+  background-color:white;
   font-family: 'Courier New', Courier, monospace;
-  color: #ffffff;
+  color: black;
 }
 
 .header {
@@ -11,6 +11,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   margin: 0 auto;
+  background-color: #001F47;
 }
 
 .headshot {
@@ -46,13 +47,13 @@ img {
 
 a:link {
   text-decoration: none;
-  color: #0050cc;
+  color: #884C93;
   font-weight: bold;
 }
 
 a:visited {
   text-decoration: none;
-  color: #0050cc;
+  color: #884C93;
   font-weight: bold;
 }
 

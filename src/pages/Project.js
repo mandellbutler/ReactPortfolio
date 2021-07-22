@@ -8,12 +8,12 @@ import '../styles/Project.css'
 
 function Project() {
   return (
-    <div id="work" className="container portfolio">
+    <div id="work" className="portfolio">
       {projects.map((project) => {
 
         return (
-          <div>
-            <div className="card text-white m-3" key={project.href}>
+          <div className="card-container d-flex flex-row">
+            <div className="card text-white" key={project.href}>
               <h5 className="card-title card-header">{project.title}</h5>
               <figure className="project-image">
                 <img src={project.image.src} alt={project.image.alt}></img>

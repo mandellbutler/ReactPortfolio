@@ -2,17 +2,25 @@ import React from 'react';
 // Here we are importing a CSS file as a dependency
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { SiGithub } from 'react-icons/si';
-import { AiOutlineLinkedin } from 'react-icons/ai';
+import { AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai';
 import '../styles/Contact.css'
 
 function Contact() {
   return (
-    <div className="container .p-3 col-sm-6 col-md-4">
+    <div className="contact d-flex flex-column">
       <h3>CONTACT:</h3>
       <section className="container .p-3" id="icons">
-        <p><a href="https://github.com/mandellbutler"><SiGithub size={40} /></a></p>
-        <p><a href="https://www.linkedin.com/in/mandellbutler/"><AiOutlineLinkedin size={45} /></a></p>
-      </section>
+        <p className="d-flex flex-column align-items-center">
+          <a href="mailto:mandell.butler@outlook.com"><AiOutlineMail size={100} /></a>
+          Email
+        </p >
+        <p className="d-flex flex-column align-items-center"><a href="https://github.com/mandellbutler"><SiGithub size={100} /></a>
+          Github
+        </p>
+        <p className="d-flex flex-column align-items-center"><a href="https://www.linkedin.com/in/mandellbutler/"><AiOutlineLinkedin size={100} /></a>
+          LinkedIn
+        </p>
+      </section >
       <form id="contact" className="contact-form">
         <div>
           <label>Name:</label>
@@ -31,7 +39,7 @@ function Contact() {
           <button className="btn btn-secondary btn-sm" type="submit">Submit</button>
         </div>
       </form>
-    </div>
+    </div >
   );
 }
 

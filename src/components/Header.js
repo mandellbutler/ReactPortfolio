@@ -17,8 +17,8 @@ import '../styles/Header.css'
 function Header() {
   const history = useHistory();
   return (
-    <div>
-      <header className="container header">
+    <div className="header">
+      <header className="d-flex">
         <figure className="headshot">
           <img src={headshot} alt="Mandell Posed in Suit Jacket" />
         </figure>
@@ -40,8 +40,7 @@ function Header() {
           }} color='primary'>Contact</Link></p>
           <p><Link onClick={(event) => {
             history.push('/resume')
-          }} color='primary'>RESUME</Link></p>
-          <a href="https://docs.google.com/document/d/13qikw68VjrDF5uUYBSEDjC86f0lfPko3o7i_EZmVE6o/edit?usp=sharing" target="_blank" rel="noreferrer" className="card-link">resume</a>
+          }} color='primary'>resume</Link></p>
         </nav>
       </header>
     </div>

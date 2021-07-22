@@ -8,16 +8,18 @@
   justify-content: start;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin-top: 1em;
-  margin-bottom: 1em;
   padding-top: 1em;
   padding-bottom: 3em;
 }
 
 #pdf-section {
-  border: 3px solid white;
+  border: 5px solid #4CB2DB;
   background-color: #4C4C93;
   box-shadow: -43px 37px 0px #884C93;
+}
+
+.react-pdf_Page_canvas {
+  background-color: lavenderblush;
 }
 
 
