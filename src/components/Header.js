@@ -17,28 +17,26 @@ import '../styles/Header.css'
 function Header() {
   const history = useHistory();
   return (
-    <div className="header">
+    <div id="header-container">
       <header className="d-flex">
         <figure className="headshot">
           <img src={headshot} alt="Mandell Posed in Suit Jacket" />
         </figure>
         <section className="namecard">
           <h1>Mandell Butler</h1>
-          <div>
-            Full Stack Web Developer
-          </div>
+          <h3>Full Stack Web Developer</h3>
         </section>
         <nav className="navbar">
-          <p><Link onClick={(event) => {
+          <p><Link className="materialLink" onClick={(event) => {
             history.push('/myWork')
           }} color='primary'>myWork</Link></p>
-          <p><Link onClick={(event) => {
+          <p><Link className="materialLink" onClick={(event) => {
             history.push('/aboutMe')
           }} color='primary'>aboutMe</Link></p>
-          <p><Link onClick={(event) => {
+          <p><Link className="materialLink" onClick={(event) => {
             history.push('/contact')
           }} color='primary'>Contact</Link></p>
-          <p><Link onClick={(event) => {
+          <p><Link className="materialLink" onClick={(event) => {
             history.push('/resume')
           }} color='primary'>resume</Link></p>
         </nav>

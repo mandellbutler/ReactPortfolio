@@ -1,3 +1,4 @@
+/* "*" controls the bg & font color of pdf file */
 * {
   box-sizing: border-box;
   background-color:white;
@@ -5,13 +6,31 @@
   color: black;
 }
 
-.header {
+#header-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
   margin: 0 auto;
   background-color: #001F47;
+}
+
+#header-container h3 {
+  color:turquoise
+}
+
+h1,
+h3,
+p,
+header,
+.namecard,
+.contact-form,
+.bio,
+.bio-container,
+.materialLink,
+#icons {
+  background-color: #001F47;
+  color: #ffffff
 }
 
 .headshot {
@@ -43,6 +62,7 @@ img {
   align-items: center;
   flex-wrap: wrap;
   font-size: calc(13px + 2vw);
+  background-color: #001F47;
 }
 
 a:link {
@@ -76,7 +96,7 @@ a:hover {
 }
 
 @media screen and (min-width: 950px) {
-  .header {
+  #header-container {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -91,8 +111,4 @@ a:hover {
       font-size: 100%
   }
 
-
-  .header div {
-      color:turquoise
-  }
 }

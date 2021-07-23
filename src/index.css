@@ -31,9 +31,10 @@ code {
 .control-panel {
   font-size: 18px;
   color: black;
-  background-color: white;
+  background-color: #884C93;
   border-radius: 5px;
   width: fit-content;
+  border: 2px solid white
 
 }
 
@@ -43,5 +44,5 @@ code {
 
 .disabled {
   cursor: not-allowed;
-  color: lightblue;
+  color: slategrey;
 }

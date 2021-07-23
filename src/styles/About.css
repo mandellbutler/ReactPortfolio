@@ -1,0 +1,22 @@
+.bio-container {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3em 10em;
+  margin: 0 auto;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  max-width: 60vw;
+  border: 5px solid #4CB2DB;
+  background-color: #4C4C93;
+  box-shadow: -43px 37px 0px #884C93;
+  padding: 18px;
+}
+
+.bio-elements {
+  background-color: #4C4C93;
+}
