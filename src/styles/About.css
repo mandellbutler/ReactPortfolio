@@ -1,4 +1,4 @@
-.bio-container {
+.about-container {
   min-height: 70vh;
   display: flex;
   flex-direction: row;
@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 
-.bio {
+.about-section {
   display: flex;
   flex-direction: column;
   max-width: 60vw;
@@ -17,6 +17,6 @@
   padding: 18px;
 }
 
-.bio-elements {
+.about-elements {
   background-color: #4C4C93;
 }

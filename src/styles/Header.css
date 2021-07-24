@@ -6,6 +6,22 @@
   color: black;
 }
 
+/* To Give Universal Background and Font color */
+h1,
+h3,
+p,
+header,
+figure,
+.namecard,
+.contact-form,
+.about-section,
+.card-container,
+.about-container,
+#icons {
+  background-color: #001F47;
+  color: #ffffff
+}
+
 #header-container {
   display: flex;
   justify-content: center;
@@ -19,19 +35,14 @@
   color:turquoise
 }
 
-h1,
-h3,
-p,
-header,
-.namecard,
-.contact-form,
-.bio,
-.bio-container,
-.materialLink,
-#icons {
-  background-color: #001F47;
-  color: #ffffff
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 2em;
 }
+
+
 
 .headshot {
   display: flex;
@@ -58,11 +69,28 @@ img {
 .navbar {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
+  align-items:flex-end;
   flex-wrap: wrap;
-  font-size: calc(13px + 2vw);
-  background-color: #001F47;
+  font-size: calc(13px + 1vw);
+  border: 2px solid white;
+  background-color: #4CB2DB;
+  opacity: 90%;
+  box-shadow: -8px 7px 0px #9D4C93;
+  padding: 6px 8px;
+}
+
+.nav-elements {
+  background-color: #4C4C93;
+}
+
+nav p, 
+.materialLink, 
+.navbar-nav {
+  background-color: #4CB2DB;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 a:link {
@@ -107,8 +135,7 @@ a:hover {
       align-self: flex-end;
       flex-direction: column;
       order: -2;
-      color: yellow;
-      font-size: 100%
+      font-size: calc(13px + .5vw);
   }
 
 }

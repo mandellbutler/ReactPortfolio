@@ -1,7 +1,7 @@
 .contact {
   min-height: 70vh;
   background-color: #001F47;
-  padding: 2em 10em;
+  padding: 4em 10em;
 }
 
 input[type=text] {
@@ -25,6 +25,9 @@ textarea {
 #icons {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
+  border: 1px solid turquoise;
+  min-height: 30vh;
 }

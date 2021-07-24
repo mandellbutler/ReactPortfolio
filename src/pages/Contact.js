@@ -9,7 +9,7 @@ function Contact() {
   return (
     <div className="contact d-flex flex-column">
       <h3>CONTACT:</h3>
-      <section className=".p-3" id="icons">
+      <section className="container .p-3" id="icons">
         <p className="d-flex flex-column align-items-center">
           <a href="mailto:mandell.butler@outlook.com"><AiOutlineMail size={100} /></a>
           Email
@@ -21,7 +21,7 @@ function Contact() {
           LinkedIn
         </p>
       </section >
-      <form id="contact" className="contact-form">
+      {/* <form id="contact" className="contact-form">
         <div className="contact-form">
           <label>Name:</label>
           <input name="fullName" id="name" type="text" placeholder="First & Last Name"></input>
@@ -38,7 +38,7 @@ function Contact() {
         <div className="d-grid gap-2 col-4 mx-auto">
           <button className="btn btn-secondary btn-sm" type="submit">Submit</button>
         </div>
-      </form>
+      </form> */}
     </div >
   );
 }
