@@ -18,6 +18,9 @@ function Header() {
   // const history = useHistory();
   return (
     <div id="header-container">
+      <figure className="headshot" >
+        <img className="img-fluid" src={headshot} alt="Mandell Posed in Suit Jacket" />
+      </figure>
       <header className="d-flex">
         {/* <nav className="navbar">
           <p><Link className="materialLink" onClick={(event) => {
@@ -33,9 +36,7 @@ function Header() {
             history.push('/contact')
           }} color='primary'>Contact</Link></p>
         </nav> */}
-        <figure className="headshot">
-          <img className="img-fluid" src={headshot} alt="Mandell Posed in Suit Jacket" />
-        </figure>
+
         <section className="namecard">
           <h1>Mandell Butler</h1>
           <h3>Full Stack Web Developer</h3>

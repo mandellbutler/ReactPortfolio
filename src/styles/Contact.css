@@ -2,6 +2,7 @@
   min-height: 70vh;
   background-color: #001F47;
   padding: 4em 10em;
+  flex-wrap: wrap;
 }
 
 input[type=text] {
@@ -30,4 +31,14 @@ textarea {
   flex-direction: row;
   border: 1px solid turquoise;
   min-height: 30vh;
+  min-width: 40vw;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    min-height: 70vh;
+    background-color: #001F47;
+    padding: 2em 4em;
+    flex-wrap: wrap;
+  }
 }

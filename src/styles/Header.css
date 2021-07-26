@@ -17,28 +17,30 @@ figure,
 .about-section,
 .card-container,
 .about-container,
+#header-container,
 #icons {
   background-color: #001F47;
-  color: #ffffff
+  color: #ffffff;
 }
 
 #header-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  flex-direction: column;
-  margin: 0 auto;
-  background-color: #001F47;
+  flex-direction: row;
+  /* margin: 0 auto; */
 }
 
 #header-container h3 {
-  color:turquoise
+  color:turquoise;
 }
 
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   padding-top: 2em;
 }
 
@@ -50,47 +52,45 @@ header {
   flex-wrap: wrap;
   flex-direction: column;
   margin: 0 auto;
+  border: 1px solid slategray;
+  margin-top: 1em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
 }
 
 img {
   width: auto;
   height: 100%;
   max-height: 30vh;
+  max-width: 300px
 }
 
 .namecard {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: column;
   font-size: calc(14px + 2vw);
 }
 
-.navbar {
+/* .navbar {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items:flex-end;
-  flex-wrap: wrap;
-  font-size: calc(13px + 1vw);
-  border: 2px solid white;
+  font-size: calc(13px + .5vw);
   background-color: #4CB2DB;
   opacity: 90%;
   box-shadow: -8px 7px 0px #9D4C93;
   padding: 6px 8px;
-}
+} */
 
 .nav-elements {
   background-color: #4C4C93;
-}
-
-nav p, 
-.materialLink, 
-.navbar-nav {
-  background-color: #4CB2DB;
-  color: #ffffff;
-  font-weight: bold;
 }
 
 a:link {
@@ -113,7 +113,7 @@ a:hover {
 
 /********************BEGIN-MEDIA-QUERY***************/
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .navbar {
       display: flex;
       flex-direction: row;
@@ -121,7 +121,7 @@ a:hover {
       flex-wrap: wrap;
       font-size: 100%;
   }
-}
+} */
 
 @media screen and (min-width: 950px) {
   #header-container {
