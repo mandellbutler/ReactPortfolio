@@ -28,13 +28,6 @@ body {
   width: 100%;
 }
 
-/* .project-image:hover { */
-  /* -ms-transform: scale(1.5); IE 9 */
-  /* -webkit-transform: scale(1.5); Safari 3-8 */
-  /* transform: scale(1.5); 
-} */
-
-
 .project-image img {
   width: 100%;
 }
@@ -53,7 +46,7 @@ body {
   /* background-image: linear-gradient(to bottom right,#4CB2DB, #18008E); */
   background-color: #4C4C93;
   color: #4CB2DB;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .card {

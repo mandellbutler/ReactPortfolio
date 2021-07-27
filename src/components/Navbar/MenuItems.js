@@ -1,7 +1,7 @@
 const MenuItems = [
   {
     title: "Home",
-    url: '#',
+    url: '/ReactPortfolio/',
     cName: 'nav-links'
   },
   {

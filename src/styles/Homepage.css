@@ -1,0 +1,21 @@
+.homepage-container {
+  padding: 3em 20em;
+  background: #001F47;
+}
+
+.homepage {
+  min-height: 50vh;
+  background: #001F47;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #884C93;
+  font-size: 100px;
+  /* border: 3px solid white; */
+};
+
+.hello {
+  color: #884C93;
+  font-size: 100px;
+};

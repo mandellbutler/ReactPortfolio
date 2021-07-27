@@ -44,7 +44,9 @@ header {
   padding-top: 2em;
 }
 
-
+.header-hidden {
+  display: none;
+}
 
 .headshot {
   display: flex;

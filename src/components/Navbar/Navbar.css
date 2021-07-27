@@ -27,15 +27,23 @@ ul li,
   text-align: center;
   width: 70vw;
   justify-content: end;
-  margin-right: 1rem;
+  margin-right: 2rem;
   background-color: #4CB2DB;
   
 }
 
 .nav-links {
-  color: white;
+  color: #4C4C93;
   text-decoration: none;
   padding: .5rem 1rem;
+}
+
+.nav-links:hover {
+  padding: 8px, 10px;
+  transition: all .3s ease-out;
+  background-color: #ffffff;
+  color: #4CB2DB;
+  transition: 250ms;
 }
 
 .fa-bars, .fa-times {
@@ -85,7 +93,7 @@ ul li,
   }
 
   .nav-links:hover {
-    background-color:#4CB2DB;;
+    background-color: #ffffff;
     border-radius: 0;
   }
 
