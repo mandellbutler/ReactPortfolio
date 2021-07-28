@@ -44,9 +44,6 @@ header {
   padding-top: 2em;
 }
 
-.header-hidden {
-  display: none;
-}
 
 .headshot {
   display: flex;
@@ -71,10 +68,9 @@ img {
 
 .namecard {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
   flex-direction: column;
+  text-align: center;
   font-size: calc(14px + 2vw);
 }
 
