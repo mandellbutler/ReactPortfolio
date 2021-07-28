@@ -8,3 +8,13 @@ footer {
   color: #ffffff;
   background-color: #001F47;
 }
+
+@media screen and (max-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: #001F47;
+    font-size: calc(6px + 2vw);;
+  }
+  
+}

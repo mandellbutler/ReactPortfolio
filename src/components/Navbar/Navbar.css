@@ -83,6 +83,7 @@ ul li,
     opacity: 1;
     transition: all .5s ease;
     z-index: 1;
+    padding-left: unset;
   }
 
   .nav-links {

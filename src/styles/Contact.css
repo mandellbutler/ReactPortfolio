@@ -35,10 +35,20 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+
+  }
+
   .contact {
     min-height: 70vh;
     background-color: #001F47;
     padding: 2em 4em;
     flex-wrap: wrap;
+  }
+
+  #icons {
+    padding-top: 3;
   }
 }
