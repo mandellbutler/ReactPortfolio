@@ -30,6 +30,15 @@
   padding-left: 1em;
 }
 
+.tech-title {
+  background-color: #00658E;
+  border-bottom: 4px solid #884C93;
+  color: white;
+  padding: .5em;
+  margin-bottom: 0;
+  font-size: (40px + 2vmin);
+}
+
 .fab {
   background-color: #00658E;
   color: white;
@@ -50,6 +59,11 @@
   flex-direction: column;
   background-color: #00658E;
   align-items: center;
+  line-height: 50px;
+}
+
+#html-icon {
+  padding-top: .25em;
 }
 
 .icons-main p,
@@ -127,6 +141,11 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
+
+  #html-icon {
+    padding-top: 0em;
+  }
+
 
 
 }

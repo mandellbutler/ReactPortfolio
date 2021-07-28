@@ -30,10 +30,10 @@ function About() {
         </section>
         <section className="about-tech">
           <aside className="icons-main">
-            <p>My Tech:</p>
+            <h4 className="tech-title">My Tech:</h4>
             <div className="icons-container">
               <div className="tech-icons">
-                <i class="fab fa-html5"></i><p>HTML5</p>
+                <i id="html-icon" class="fab fa-html5"></i><p>HTML5</p>
                 <i class="fab fa-css3-alt"></i><p>CSS3</p>
                 <i class="fab fa-js-square"></i><p>Javascript</p>
                 <SiJquery size={40} /><p>JQuery</p>

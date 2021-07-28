@@ -46,6 +46,10 @@ body {
   /* background-image: linear-gradient(to bottom right,#4CB2DB, #18008E); */
   background-color: #4C4C93;
   color: #4CB2DB;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
   /* font-weight: bold; */
 }
 
