@@ -39,16 +39,6 @@
   font-size: (40px + 2vmin);
 }
 
-.fab {
-  background-color: #00658E;
-  color: white;
-  display: flex;
-}
-
-/* .react-icons {
-  background-color: #00658E;
-  color: white;
-} */
 .icons-container {
   display: flex;
   flex-direction: column;
@@ -85,6 +75,9 @@
 .fa-react,
 .fa-github {
   font-size: calc(40px + 2vmin);
+  background-color: #00658E;
+  color: white;
+  display: flex;
 }
 
 @media screen and (max-width: 768px) {

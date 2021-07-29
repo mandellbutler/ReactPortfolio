@@ -1,4 +1,14 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #001F47;
+}
+
 .contact {
+  display: flex;
+  flex-direction: column;
   min-height: 70vh;
   background-color: #001F47;
   padding: 4em 10em;
@@ -23,16 +33,34 @@ textarea {
   border: 2px solid grey;
 }
 
-#icons {
+.contact-icons-container {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-around;
+  background-color: #001F47;
+  text-align: center;
   border: 1px solid turquoise;
   min-height: 30vh;
   min-width: 40vw;
 }
+
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-envelope,
+.fa-linkedin-in,
+#github-icon {
+  font-size: 100px;
+  background-color: #001F47;
+  color: white;
+  display: flex;
+  padding: .1em .1em .1em;
+}
+
 
 @media screen and (max-width: 768px) {
   .contact-container {
@@ -42,11 +70,33 @@ textarea {
   }
 
   .contact {
+    display: flex;
     min-height: 70vh;
     background-color: #001F47;
     padding: 2em 4em;
     flex-wrap: wrap;
   }
+
+  .contact-icons-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid turquoise;
+    padding: 1em 1em 0em;
+    min-height: 30vh;
+    min-width: 40vw;
+  }
+
+  .fa-envelope,
+.fa-linkedin-in,
+#github-icon {
+  font-size: 50px;
+  background-color: #001F47;
+  color: white;
+  display: flex;
+  padding: .1em .1em .1em;
+}
 
 
 }

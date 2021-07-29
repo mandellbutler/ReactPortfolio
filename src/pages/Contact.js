@@ -12,16 +12,30 @@ function Contact() {
       <Header />
       <div className="contact-container">
         <div className="contact">
-          <h3>CONTACT:</h3>
-          <section className=".p-3" id="icons">
-            <p className="d-flex flex-column align-items-center">
+          {/* <h3>CONTACT:</h3>
+          <section className="icons-container">
+            <p id="email-icon">
               <a href="mailto:mandell.butler@outlook.com"><AiOutlineMail size={100} /></a>
               Email
             </p >
-            <p className="d-flex flex-column align-items-center"><a href="https://github.com/mandellbutler"><SiGithub size={100} /></a>
+            <p id="github-icon"><a href="https://github.com/mandellbutler"><SiGithub size={100} /></a>
               Github
             </p>
-            <p className="d-flex flex-column align-items-center"><a href="https://www.linkedin.com/in/mandellbutler/"><AiOutlineLinkedin size={100} /></a>
+            <p id="linkedin-icon"><a href="https://www.linkedin.com/in/mandellbutler/"><AiOutlineLinkedin size={100} /></a>
+              LinkedIn
+            </p>
+          </section > */}
+          <h3>CONTACT:</h3>
+          <section className="contact-icons-container">
+            <p id="email-icon" className="contact-icons">
+              <a href="mailto:mandell.butler@outlook.com"><i className="far fa-envelope"></i></a>
+              Email
+            </p >
+            <p className="contact-icons">
+              <a href="https://github.com/mandellbutler"><i id="github-icon" className="fab fa-github"></i></a>
+              Github
+            </p>
+            <p id="linkedin-icon" className="contact-icons"><a href="https://www.linkedin.com/in/mandellbutler/"><i className="fab fa-linkedin-in"></i></a>
               LinkedIn
             </p>
           </section >
