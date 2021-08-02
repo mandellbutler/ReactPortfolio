@@ -1,33 +1,34 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.5054cb70.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.4f54fbc1.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.4f54fbc1.chunk.js.map",
-    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.152aaf0d.js",
-    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.152aaf0d.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.1bed643b.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.157b7924.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.157b7924.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.65088967.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.65088967.js.map",
     "static/css/2.61b4cb56.chunk.css": "/ReactPortfolio/static/css/2.61b4cb56.chunk.css",
-    "static/js/2.278b884b.chunk.js": "/ReactPortfolio/static/js/2.278b884b.chunk.js",
-    "static/js/2.278b884b.chunk.js.map": "/ReactPortfolio/static/js/2.278b884b.chunk.js.map",
-    "static/js/3.3a767ae5.chunk.js": "/ReactPortfolio/static/js/3.3a767ae5.chunk.js",
-    "static/js/3.3a767ae5.chunk.js.map": "/ReactPortfolio/static/js/3.3a767ae5.chunk.js.map",
+    "static/js/2.7d2701b4.chunk.js": "/ReactPortfolio/static/js/2.7d2701b4.chunk.js",
+    "static/js/2.7d2701b4.chunk.js.map": "/ReactPortfolio/static/js/2.7d2701b4.chunk.js.map",
+    "static/js/3.3faac8f2.chunk.js": "/ReactPortfolio/static/js/3.3faac8f2.chunk.js",
+    "static/js/3.3faac8f2.chunk.js.map": "/ReactPortfolio/static/js/3.3faac8f2.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/ReactPortfolio/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.5054cb70.chunk.css.map": "/ReactPortfolio/static/css/main.5054cb70.chunk.css.map",
-    "static/js/2.278b884b.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.278b884b.chunk.js.LICENSE.txt",
-    "static/media/bridal.3443a709.jpeg": "/ReactPortfolio/static/media/bridal.3443a709.jpeg",
+    "static/css/main.1bed643b.chunk.css.map": "/ReactPortfolio/static/css/main.1bed643b.chunk.css.map",
+    "static/js/2.7d2701b4.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.7d2701b4.chunk.js.LICENSE.txt",
     "static/media/cupcakes.1821cff3.jpeg": "/ReactPortfolio/static/media/cupcakes.1821cff3.jpeg",
     "static/media/headshot.eb4b2655.png": "/ReactPortfolio/static/media/headshot.eb4b2655.png",
-    "static/media/horiseon.0be0ea54.jpeg": "/ReactPortfolio/static/media/horiseon.0be0ea54.jpeg",
     "static/media/movie.bcc45094.jpeg": "/ReactPortfolio/static/media/movie.bcc45094.jpeg",
-    "static/media/otw.d9d28604.jpeg": "/ReactPortfolio/static/media/otw.d9d28604.jpeg",
+    "static/media/nyc.11620449.JPG": "/ReactPortfolio/static/media/nyc.11620449.JPG",
     "static/media/password.ff32218e.jpeg": "/ReactPortfolio/static/media/password.ff32218e.jpeg",
-    "static/media/planner.21c4bea3.jpeg": "/ReactPortfolio/static/media/planner.21c4bea3.jpeg"
+    "static/media/planner.21c4bea3.jpeg": "/ReactPortfolio/static/media/planner.21c4bea3.jpeg",
+    "static/media/prompts.0c13151e.png": "/ReactPortfolio/static/media/prompts.0c13151e.png",
+    "static/media/resume.e783190e.pdf": "/ReactPortfolio/static/media/resume.e783190e.pdf",
+    "static/media/weather.a3d4f8d4.png": "/ReactPortfolio/static/media/weather.a3d4f8d4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.152aaf0d.js",
+    "static/js/runtime-main.65088967.js",
     "static/css/2.61b4cb56.chunk.css",
-    "static/js/2.278b884b.chunk.js",
-    "static/css/main.5054cb70.chunk.css",
-    "static/js/main.4f54fbc1.chunk.js"
+    "static/js/2.7d2701b4.chunk.js",
+    "static/css/main.1bed643b.chunk.css",
+    "static/js/main.157b7924.chunk.js"
   ]
 }
