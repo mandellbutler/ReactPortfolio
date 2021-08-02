@@ -1,17 +1,49 @@
+/* "*" controls the bg & font color of pdf file */
 * {
   box-sizing: border-box;
-  background-color:#4C6893;
+  background-color:white;
   font-family: 'Courier New', Courier, monospace;
-  color: #ffffff
+  color: black;
 }
 
-.header {
+/* To Give Universal Background and Font color */
+h1,
+h3,
+p,
+header,
+figure,
+.namecard,
+.contact-form,
+.about-section,
+.card-container,
+.about-container,
+#header-container,
+#icons {
+  background-color: #001F47;
+  color: #ffffff;
+}
+
+#header-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  flex-direction: column;
-  margin: 0 auto;
+  flex-direction: row;
+  /* margin: 0 auto; */
 }
+
+#header-container h3 {
+  color:turquoise;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+}
+
 
 .headshot {
   display: flex;
@@ -19,40 +51,55 @@
   flex-wrap: wrap;
   flex-direction: column;
   margin: 0 auto;
+  border: 1px solid slategray;
+  margin-top: 1em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
 }
 
 img {
   width: auto;
   height: 100%;
   max-height: 30vh;
+  max-width: 300px
 }
 
 .namecard {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  justify-content: center;
   flex-direction: column;
+  text-align: center;
   font-size: calc(14px + 2vw);
 }
 
-.navbar {
+/* .navbar {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
-  flex-wrap: wrap;
-  font-size: calc(13px + 2vw);
+  align-items:flex-end;
+  font-size: calc(13px + .5vw);
+  background-color: #4CB2DB;
+  opacity: 90%;
+  box-shadow: -8px 7px 0px #9D4C93;
+  padding: 6px 8px;
+} */
+
+.nav-elements {
+  background-color: #4C4C93;
 }
 
 a:link {
   text-decoration: none;
-  color: #0050cc;
+  color: #884C93;
   font-weight: bold;
 }
 
 a:visited {
   text-decoration: none;
-  color: #0050cc;
+  color: #884C93;
   font-weight: bold;
 }
 
@@ -61,9 +108,10 @@ a:hover {
   color: #ffffff
 }
 
+
 /********************BEGIN-MEDIA-QUERY***************/
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .navbar {
       display: flex;
       flex-direction: row;
@@ -71,10 +119,10 @@ a:hover {
       flex-wrap: wrap;
       font-size: 100%;
   }
-}
+} */
 
 @media screen and (min-width: 950px) {
-  .header {
+  #header-container {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
@@ -85,12 +133,7 @@ a:hover {
       align-self: flex-end;
       flex-direction: column;
       order: -2;
-      color: yellow;
-      font-size: 100%
+      font-size: calc(13px + .5vw);
   }
 
-
-  .header div {
-      color:turquoise
-  }
 }
