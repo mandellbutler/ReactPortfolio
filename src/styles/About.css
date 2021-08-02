@@ -19,6 +19,25 @@
 
 .about-elements {
   background-color: #4C4C93;
+  color: white;
+}
+
+#about-contact-link {
+  text-decoration: none;
+  color: #4CB2DB;
+  font-weight: inherit;
+  background-color: #4C4C93;
+  padding: 0px 0px;
+  border: 0px solid black;
+
+}
+
+#about-contact-link:hover {
+  text-decoration: none;
+  transition: all .3s ease-out;
+  background-color: #4CB2DB;
+  color: #ffffff;
+  transition: 250ms;
 }
 
 .about-tech {
@@ -129,6 +148,10 @@
     padding: 1em;
   }
 
+  .icons-container p {
+    font-size: 15px;
+  }
+
   .tech-icons {
     display: flex;
     justify-content: space-between;
@@ -138,7 +161,5 @@
   #html-icon {
     padding-top: 0em;
   }
-
-
 
 }

@@ -16,7 +16,7 @@ function Project() {
 
           return (
             // <div className="container card-container d-flex row">
-            <div className="card text-white" key={project.href}>
+            <div className="card text-white" key={project.title}>
               <h5 className="card-title card-header">{project.title}</h5>
               <figure className="project-image">
                 <img src={project.image.src} alt={project.image.alt}></img>

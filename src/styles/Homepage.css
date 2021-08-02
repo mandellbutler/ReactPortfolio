@@ -52,6 +52,23 @@
   text-align: center;
 }
 
+.quote-sub {
+  color: turquoise;
+  font-size: calc(10px + 2vw);
+
+}
+
+#quote-span {
+  background: #001F47;
+  color: #9D4C93;
+
+}
+
+.btn-container {
+  display: flex;
+}
+
+
 @media screen and (max-width: 768px) {
   .homepage-container {
     padding: 3em 3em;

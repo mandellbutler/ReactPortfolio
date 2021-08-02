@@ -2,8 +2,6 @@ import React from 'react';
 // Here we are importing a CSS file as a dependency
 import Header from '../components/Header'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { SiGithub } from 'react-icons/si';
-import { AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai';
 import '../styles/Contact.css'
 
 function Contact() {
@@ -12,19 +10,6 @@ function Contact() {
       <Header />
       <div className="contact-container">
         <div className="contact">
-          {/* <h3>CONTACT:</h3>
-          <section className="icons-container">
-            <p id="email-icon">
-              <a href="mailto:mandell.butler@outlook.com"><AiOutlineMail size={100} /></a>
-              Email
-            </p >
-            <p id="github-icon"><a href="https://github.com/mandellbutler"><SiGithub size={100} /></a>
-              Github
-            </p>
-            <p id="linkedin-icon"><a href="https://www.linkedin.com/in/mandellbutler/"><AiOutlineLinkedin size={100} /></a>
-              LinkedIn
-            </p>
-          </section > */}
           <h3>CONTACT:</h3>
           <section className="contact-icons-container">
             <p id="email-icon" className="contact-icons">
