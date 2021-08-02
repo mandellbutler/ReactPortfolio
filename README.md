@@ -26,7 +26,7 @@ No installation necessary.
 Simply visit the deployed page and view my work!
 
 
-* Homepage with clickable portfolio images:
+* Homepage:
 
 <img src="./src/assets/images/homepage.png" width="400">
 
