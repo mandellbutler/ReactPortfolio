@@ -1,12 +1,15 @@
 import React from 'react';
 // Here we are importing a CSS file as a dependency
 import Header from '../components/Header'
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Contact.css'
 
 function Contact() {
   return (
     <div>
+      <Navbar />
       <Header />
       <div className="contact-container">
         <div className="contact">
@@ -44,6 +47,7 @@ function Contact() {
           </form> */}
         </div >
       </div>
+      <Footer />
     </div>
   );
 }

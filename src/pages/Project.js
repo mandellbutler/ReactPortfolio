@@ -1,6 +1,8 @@
 import React from 'react';
 import projects from '../projects';
 import Header from '../components/Header'
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar/Navbar';
 // Here we are importing a CSS file as a dependency
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Project.css'
@@ -10,6 +12,7 @@ import '../styles/Project.css'
 function Project() {
   return (
     <div>
+      <Navbar />
       <Header />
       <div id="work" className="portfolio">
         {projects.map((project) => {
@@ -34,6 +37,7 @@ function Project() {
         }
         )}
       </div>
+      <Footer />
     </div>
   );
 }

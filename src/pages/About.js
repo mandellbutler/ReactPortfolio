@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from '../components/Header'
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar/Navbar';
 import { SiMongodb, SiMysql, SiHeroku, SiJquery, SiPostman } from 'react-icons/si';
 
 // import { useHistory } from 'react-router-dom'
@@ -11,6 +13,7 @@ import '../styles/About.css'
 function About() {
   return (
     <div>
+      <Navbar />
       <Header />
       <div className="about-container">
         <section className="about-section">
@@ -51,6 +54,7 @@ function About() {
           </aside>
         </section>
       </div>
+      <Footer />
     </div>
   );
 }

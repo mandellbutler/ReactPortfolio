@@ -4,8 +4,6 @@ import Project from './pages/Project';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import About from './pages/About';
-import Footer from './components/Footer';
-import Navbar from './components/Navbar/Navbar';
 import Homepage from './pages/Homepage';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -14,7 +12,6 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar />
         <Route exact path='/ReactPortfolio'>
           <Homepage />
         </Route>
@@ -30,7 +27,6 @@ function App() {
         <Route exact path='/resume'>
           <Resume />
         </Route>
-        <Footer />
       </div>
     </Router>
   );

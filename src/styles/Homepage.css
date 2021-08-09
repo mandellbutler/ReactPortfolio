@@ -1,7 +1,7 @@
 .homepage-main {
   display: flex;
   flex-direction: row;
-  min-height: 90vh;
+  min-height: 100vh;
   align-items: center;
   justify-content: center;
   background: #001F47;
