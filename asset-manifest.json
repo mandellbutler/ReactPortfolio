@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.1bed643b.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.355598b4.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.355598b4.chunk.js.map",
+    "main.css": "/ReactPortfolio/static/css/main.25f4d53b.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.5fe25924.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.5fe25924.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.65088967.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.65088967.js.map",
     "static/css/2.61b4cb56.chunk.css": "/ReactPortfolio/static/css/2.61b4cb56.chunk.css",
-    "static/js/2.7d2701b4.chunk.js": "/ReactPortfolio/static/js/2.7d2701b4.chunk.js",
-    "static/js/2.7d2701b4.chunk.js.map": "/ReactPortfolio/static/js/2.7d2701b4.chunk.js.map",
+    "static/js/2.2eddb9cf.chunk.js": "/ReactPortfolio/static/js/2.2eddb9cf.chunk.js",
+    "static/js/2.2eddb9cf.chunk.js.map": "/ReactPortfolio/static/js/2.2eddb9cf.chunk.js.map",
     "static/js/3.3faac8f2.chunk.js": "/ReactPortfolio/static/js/3.3faac8f2.chunk.js",
     "static/js/3.3faac8f2.chunk.js.map": "/ReactPortfolio/static/js/3.3faac8f2.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/ReactPortfolio/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.1bed643b.chunk.css.map": "/ReactPortfolio/static/css/main.1bed643b.chunk.css.map",
-    "static/js/2.7d2701b4.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.7d2701b4.chunk.js.LICENSE.txt",
+    "static/css/main.25f4d53b.chunk.css.map": "/ReactPortfolio/static/css/main.25f4d53b.chunk.css.map",
+    "static/js/2.2eddb9cf.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.2eddb9cf.chunk.js.LICENSE.txt",
     "static/media/cupcakes.1821cff3.jpeg": "/ReactPortfolio/static/media/cupcakes.1821cff3.jpeg",
     "static/media/headshot.eb4b2655.png": "/ReactPortfolio/static/media/headshot.eb4b2655.png",
     "static/media/movie.bcc45094.jpeg": "/ReactPortfolio/static/media/movie.bcc45094.jpeg",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.65088967.js",
     "static/css/2.61b4cb56.chunk.css",
-    "static/js/2.7d2701b4.chunk.js",
-    "static/css/main.1bed643b.chunk.css",
-    "static/js/main.355598b4.chunk.js"
+    "static/js/2.2eddb9cf.chunk.js",
+    "static/css/main.25f4d53b.chunk.css",
+    "static/js/main.5fe25924.chunk.js"
   ]
 }
